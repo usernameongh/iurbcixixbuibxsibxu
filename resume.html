@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Victor Von Doom's Resume</title>
+        <link rel="stylesheet" href="master.css">
+    </head>
+    <body>
+        <div id="demo"></div>
+        <script>
+           const d = new Date();
+           let text = d.toDateString();
+           document.getElementById("demo").innerHTML = "Date: " + text;
+           console.log("Long live Latveria!");
+        </script>
+
+        <header>
+            <h1>Victor Von Doom's Resume</h1>
+            <nav>
+                <ul>
+                    <li><a href="career-goals.html">Career Goals</a></li>
+                    <li><a href="cover-letter.html">Cover Letter</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <!-- OBJECTIVE STATEMENT - EA 101125 -->
+            <section>
+                <h3 class="sectionHeader">Objective</h3>
+                <p>To advance scientific discovery, develop revolutionary technologies, and apply scientific and mystical knowledge toward the advancement of Latveria and humanity.</p>
+            </section>
+
+            <hr>
+
+            <!-- EXPERIENCE -->
+            <section>
+                <h3 class="sectionHeader">Experience</h3>
+                <p>Background in <em>scientific research, engineering, robotics</em>, and the integration of advanced technology with mystical disciplines.</p>
+
+                <article>
+                    <ul>
+                        <li class="employerName"><strong>Latverian Government</strong></li>
+                        <ul>
+                            <li class="positionTitle"><strong>Monarch and Head of State</strong></li>
+                            <li><span class="job-date">1985 - Present</span></li>
+                            <li><strong>Responsibilities</strong></li>
+                            <ul>
+                                <li>Direct national technological development and scientific initiatives</li>
+                                <li>Oversee robotic defense systems and national security</li>
+                                <li>Manage government operations and strategic planning</li>
+                            </ul>
+                        </ul>
+                    </ul>
+                </article>
+
+                <article>
+                    <ul>
+                        <li class="employerName"><strong>Doom Industries</strong></li>
+                        <ul>
+                            <li class="positionTitle"><strong>Founder and Chief Engineer</strong></li>
+                            <li><span class="job-date">1983 - Present</span></li>
+                            <li><strong>Responsibilities</strong></li>
+                            <ul>
+                                <li>Design advanced robotics and Doombots</li>
+                                <li>Develop experimental weapons, armor, and machinery</li>
+                                <li>Conduct research in dimensional travel and energy manipulation</li>
+                            </ul>
+                        </ul>
+                    </ul>
+                </article>
+
+                <article>
+                    <ul>
+                        <li class="employerName"><strong>The Masters of The Mystical Arts</strong></li>
+                        <ul>
+                            <li class="positionTitle"><strong>Student of The Mystic Arts</strong></li>
+                            <li><span class="job-date">1980 - Present</span></li>
+                            <li><strong>Responsibilities</strong></li>
+                            <ul>
+                                <li>Study and master ancient magical disciplines.</li>
+                                <li>Combine sorcery with advanced scientific technology.</li>
+                                <li>Develop mystical defenses and dimensional manipulation techniques.</li>
+                            </ul>
+                        </ul>
+                    </ul>
+                </article>
+            </section>
+
+            <hr>
+
+            <!-- EDUCATION -->
+            <section>
+                <h3 class="sectionHeader">Education</h3>
+                <ul>
+                    <li><strong>Independent Studies</strong></li>
+                    <ul>
+                        <li><em>Advanced Engineering, Robotics, Physics, and Mysticism</em></li>
+                        <li>1980 - Present</li>
+                    </ul>
+                </ul>
+            </section>
+
+            <hr>
+
+            <!-- SKILLS -->
+            <section>
+                <h3 class="sectionHeader">Skills</h3>
+                <ul id="skillsList">
+                    <li>Robotics and automation</li>
+                    <li>Artificial intelligence development</li>
+                    <li>Mechanical and electrical engineering</li>
+                    <li>Advanced weapons systems design</li>
+                    <li>Nuclear physics and energy manipulation</li>
+                    <li>Political leadership and diplomacy</li>
+                    <li>Computer programming</li>
+                    <li>Dimensional engineering</li>
+                    <li><em>Sorcery and mystical practices</em></li>
+                    <li>Strategic planning and military command</li>
+                    <li>Armor design and fabrication</li>
+                    <li>Scientific research and experimentation</li>
+                </ul>
+            </section>
+
+            <!-- TABLE FROM tables.html -->
+            <hr>
+
+            <section>
+                <h3 class="sectionHeader">Lorvic Ipdoom</h3>
+
+                <table>
+                    <caption><em>Doomstadt, alchemy, robotics, sovereignty.</em></caption>
+                    <tr>
+                        <th></th>
+                        <th>Doombots</th>
+                        <th>Latveria</th>
+                        <th>Sorcery</th>
+                    </tr>
+                    <tr>
+                        <th>Supremacy</th>
+                        <td>Machinery, alchemy, inventions, warfare, intellect, armor.</td>
+                        <td colspan="2">Mysticism, engineering, conquest, technology, sorcery, monarchy, robotics, ambition, machinery.</td>
+                        <!-- <td>Metallurgy, sovereignty, defense, experimentation, strategy, domination, magic.</td> -->
+                    </tr>
+                    <tr>
+                        <th>Engineering</th>
+                        <td>Armor, inventions, machinery!</td>
+                        <td rowspan="2">genius, mysticism</td>
+                        <th>Magic, mysticism.</th>
+                    </tr>
+                    <tr>
+                        <th>Legacy</th>
+                        <td>Supremacy, alchemy, machinery, inventions.</td>
+                        <!-- <td>Doombots, sovereignty, armor?</td> -->
+                        <td>Science, mysticism, domination, Latveria!</td>
+                    </tr>
+                </table>
+            </section>
+
+            <ul>
+                <!-- CONTACT-INFO -->
+            </ul>
+        </main>
+
+        <hr>
+        
+        <footer id="vvd" style="margin-bottom: 1200px;">
+            <h2><sup>&copy;</sup>Victor Von Doom<br></h2>
+            Castle Doom<br>
+            Doomstadt, Latveria &nbsp;LV-00001<br>
+            +57 620-466-1962
+        </footer>
+    </body>
+</html>
